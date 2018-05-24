@@ -20,6 +20,7 @@ To test your function, run:
 
 ```sh
 # in the root folder of this repository
+# ⚠️ Do not forget to install the project before
 npm test -- ./src/test_1
 ```
 
