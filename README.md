@@ -17,4 +17,4 @@ npm i
 
 ## Tests
 
- - [Max sum in a triangle](./src/test_1/README.md)
+ - [Test #1 - Max sum in a triangle](./src/test_1/README.md)
