@@ -7,7 +7,7 @@ type nodeResultCallback = (
   result: number | null | void
 ) => void;
 
-const computeMaxSum = (filePath: string, cb: nodeResultCallback) => {
+const computeMaxSum = (filePath: string, callback: nodeResultCallback) => {
   /********************/
   /*                  */
   /*     YOUR CODE    */
