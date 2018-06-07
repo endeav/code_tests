@@ -8,13 +8,6 @@ Those tests aims at:
  - Assessing the code clearity
  - Assessing the code efficiency
 
-## Installation
-
-```sh
-npm i
-```
-
-
 ## Tests
 
  - [Test #1 - Max sum in a triangle](./src/test_1/README.md)

@@ -1,4 +1,5 @@
 import types
+import pytest
 
 from compute_max_sum import compute_max_sum
 
