@@ -1,2 +1,6 @@
 .vscode/*
-node_modules/*
+node_modules
+*.pyc
+__pychache__
+.pytest_cache
+test_env
