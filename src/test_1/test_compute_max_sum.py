@@ -3,6 +3,7 @@ import pytest
 
 from compute_max_sum import compute_max_sum
 
+
 class TestComputeMaxSum(object):
     def test_compute_max_sum_is_a_function(self):
         assert isinstance(compute_max_sum, types.FunctionType) == True
@@ -12,3 +13,7 @@ class TestComputeMaxSum(object):
 
     def test_compute_max_sum_returns_the_correct_awnser_with_triangle_2(self):
         assert compute_max_sum('./data/triangle_2.txt') == 7273
+
+    def test_compute_max_sum_returns_the_correct_awnser_with_no_triangle(self):
+        with pytest.raises(ValueError):
+            assert compute_max_sum('./data/no_triangle.txt')
